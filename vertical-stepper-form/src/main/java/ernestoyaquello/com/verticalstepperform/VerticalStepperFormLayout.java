@@ -599,7 +599,7 @@ public class VerticalStepperFormLayout extends RelativeLayout implements View.On
 
                 int heightDiff = content.getRootView().getHeight() - (r.bottom - r.top);
                 if (heightDiff > 100) { // if more than 100 pixels, it is probably a keyboard...
-                    scrollToActiveStep(true);
+                    //scrollToActiveStep(true);
                 }
             }
         });
